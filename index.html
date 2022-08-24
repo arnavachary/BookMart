@@ -3,10 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content= "width=device-width, initial-scale=1.0">
     <title>Book Mart</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/Style/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
 </head>
 <body>
     <nav id="navbar">
@@ -14,13 +17,198 @@
         <ul>
             <li> <a href="/index.html">Home</a> </li>
             <li> <a href="/about.html">About</a> </li>
-            <li> <a href="/shop.html">Shop</a> </li>
             <li> <a href="/caregories.html">Categories</a></li>
             <input type="text" placeholder="Search" >
         </ul>
         
     </nav>
 
+    <div id="highlight">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="https://i.pinimg.com/736x/e0/d1/2e/e0d12e626aff0a145613dcae73eadc4b.jpg" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/free-psd/bookstore-promo-banner-template_23-2148741826.jpg?w=2000" class="d-block w-100" alt="...">
+              </div>
+              <div class="carousel-item">
+                <img src="https://img.freepik.com/free-vector/time-travel-banners-with-tourists-with-suitcase-backpack-map-cityscape-background-vector-vertical-posters-vacation-trip-tourism-with-cartoon-illustration-people-travelers_107791-10715.jpg?w=2000" class="d-block w-100" alt="">
+            </div>
+            </div>
+            
+          </div>
+    </div>
+
+    <div id="categories">
+      <section>
+      <h3>Featured Categories</h3>
+      <button>All Categories</button>
+    </section>
+    <section id="types">
+      <div style="background-color: rgb(243, 219, 243);">
+        <i  class="fa fa-file"></i>
+        <h5>Arts & Photos</h5>
+        <p>Shop Now</p>
+      </div>
+      <div style="background-color: rgb(253, 245, 173);">
+        <i style="color: darkorange;" class="fa fa-cutlery" ></i>
+        <h5>Arts & Photos</h5>
+        <p>Shop Now</p>
+      </div>
+      <div style="background-color: rgb(255, 214, 204);">
+        <i style="color: red;" class="fa fa-heart"></i>
+        <h5>Arts & Photos</h5>
+        <p>Shop Now</p>
+      </div>
+      <div style="background-color: rgb(189, 174, 255);">
+        <i style="color: blue;" class="fa fa-stethoscope"></i>
+        <h5>Arts & Photos</h5>
+        <p>Shop Now</p>
+      </div>
+      <div style="background-color: rgb(252, 198, 236);">
+        <i  class="fa fa-address-book"></i>
+        <h5>Arts & Photos</h5>
+        <p>Shop Now</p>
+      </div>
+      
+    </section>
+      
+      
+      
+    </div>
+
+    <div id="books">
+
+      <h3>Bestselling Book </h3>
+    <section class="book">
+      <div class="card" style="width: 15rem; ">
+        <img style="height: 35vh;" src="https://static.independent.co.uk/2020/12/16/14/the%20midnight%20library-1.jpg?quality=75&width=982&height=726&auto=webp" class="card-img-top" alt="...">
+        <div class="card-body" >
+          <h5 class="card-title" style="color: red;">Kindle</h5>
+          <p class="card-text">Anna Banks</p>
+          <p>$29.95 - $50.95</p>
+          <span >
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+          </span>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem; ">
+        <img style="height: 32vh;width: 10vw; margin: auto; margin-top: 3vh;" src="https://demo4.madrasthemes.com/bookworm/wp-content/uploads/2020/08/18-120x183.jpg" class="card-img-top" alt="...">
+        <div class="card-body" >
+          <h5 class="card-title" style="color: red;">Kindle</h5>
+          <p class="card-text">Anna Banks</p>
+          <p>$29.95 - $50.95</p>
+          <span >
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+          </span>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem; ">
+        <img style="height: 32vh;width: 10vw; margin: auto; margin-top: 3vh;" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781534425767/the-future-king-9781534425767_lg.jpg" class="card-img-top" alt="...">
+        <div class="card-body" >
+          <h5 class="card-title" style="color: red;">Kindle</h5>
+          <p class="card-text">Anna Banks</p>
+          <p>$29.95 - $50.95</p>
+          <span >
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+          </span>
+        </div>
+      </div>
+      <div class="card" style="width: 15rem; ">
+        <img style="height: 32vh;width: 10vw; margin: auto; margin-top: 3vh;" src="https://d28hgpri8am2if.cloudfront.net/book_images/onix/cvr9781534425866/the-chosen-one-9781534425866_lg.jpg" class="card-img-top" alt="...">
+        <div class="card-body" >
+          <h5 class="card-title" style="color: red;">Kindle</h5>
+          <p class="card-text">Anna Banks</p>
+          <p>$29.95 - $50.95</p>
+          <span >
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+            <i style="color: rgb(255, 187, 14);" class="fa fa-star"></i>
+          </span>
+        </div>
+      </div>
+      
+    </section>
+    </div>
+
+    <div id="author">
+      <h3>Favourite Author</h3>
+      <div class="info" >
+        <div class="text">
+        <img  src="https://demo4.madrasthemes.com/bookworm/wp-content/uploads/2020/09/4-1.jpg " alt="">
+        <p>A G Riddle</p>
+        <p>3 books published</p>
+        </div>
+        <div class="text">
+          <img  src="https://demo4.madrasthemes.com/bookworm/wp-content/uploads/2020/09/12.jpg" alt="">
+          <p>Andre Aciman</p>
+          <p>2 Published book</p>
+        </div>
+        <div class="text">
+            <img  src="https://demo4.madrasthemes.com/bookworm/wp-content/uploads/2020/09/8.jpg" alt="">
+            <p>Anna Banks</p>
+            <p>6 Published Books</p>
+        </div>
+        <div class="text">
+              <img  src="https://demo4.madrasthemes.com/bookworm/wp-content/uploads/2020/09/13.jpg " alt="">
+              <p>Anna Burns</p>
+              <p>2 Published Book</p>
+        </div>
+        <div class="text">
+          <img  src="https://demo4.madrasthemes.com/bookworm/wp-content/uploads/2020/09/1.jpg" alt="">
+          <p>Ashlee vance</p>
+          <p>2 Published Book</p>
+        </div>
+
+      </div>
+    </div>
+
+    <footer>
+      <div id="end">
+      <div class="link">
+        <h3>BookMart</h3>
+        <p>1418 River Drive, Suite 35 Cottonhall, CA 9622</p>
+        <p>United States</p>
+        <a href="">sale@bookmart@gmail.com</a>
+        <p>+91 8928443201</p>
+      </div>
+
+      <div class="explore">
+        <p style="font-weight: bold;">Explore</p>
+        <p style="margin-top: 5vh;" >About Us</p>
+        <p>Sitemap</p>
+        <p>Bookmarka</p>
+        <p>Sign in/Join in</p>
+      </div>
+
+      <div class="service">
+        <p>Customers service</p>
+        <p>Help Canter</p>
+        <p>Returns</p>
+        <p>Product Recalls</p>
+        <p>Accessibillity</p>
+        <p>Contact Us</p>
+        <p>Stone Pickup</p>
+      </div>
+    </div>
+
+    </footer>
     <script src="script.js"></script>
 </body>
 </html>

@@ -1,0 +1,134 @@
+#navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid grey;
+}
+#navbar > ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    padding: 0 5vw;
+}
+#navbar > ul > li{
+    margin: 0 2vw;
+    font-weight: bold;
+}
+#navbar >ul> input{
+    height: 5vh;
+    width: 20vw;
+}
+#navbar>h1{
+    padding: 0 5vw;
+    font-weight: bold;
+}
+#navbar > ul > li > a{
+    color: black;
+    text-decoration: none;
+}
+
+#highlight{
+    margin: 5vh 0;
+}
+
+.carousel-inner > .carousel-item >img{
+    height: 40vw;
+    width: 50vh;
+}
+
+#categories > section{
+    display: flex;
+    justify-content: space-between;
+    width: 80% ;
+    margin: 10vh auto;
+    
+}
+
+#categories > section > button{
+    background-color: transparent;
+    border: none;
+}
+
+#categories > section > button:hover{
+    color: orange;
+}
+
+#categories > section > h3{
+    
+}
+#categories > #types{
+    width: 90%;
+    height: 50vh;
+    margin: auto;
+}
+#categories > #types > div{
+    height: 33vh;
+    width: 17vw;
+    margin: 10vh 1vw;
+    padding: 10px;
+}
+#categories > #types > div >i{
+    font-size: 2.5rem;
+    color: purple;
+    margin-top: 30%;
+    padding: 0 3vw;
+}
+#types > div > h5{
+    padding: 2vh 0;
+}
+
+#books{
+    width: 80%;
+    height: 50vh;
+    margin: auto;
+    
+    
+}
+#books > .book{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 15px;
+}
+#books > h3{
+    margin: 10vh 11vw;
+}
+
+#author{
+    width: 100%;
+    height: 40vh;
+    margin-top: 40vh;
+}
+#author > .info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    width: 80%;
+    margin: 5vh auto ;
+
+}
+#author > .info > .text{
+    text-align: center;
+}
+#author > h3{
+    margin: 0 10vw;
+}
+
+#author >.info >.text > img{
+   width: 10vw;
+   height: 10hv;
+   border-radius: 100%; 
+   margin: auto;
+}
+footer{
+    height: 40vh;
+    width: 90%;
+    margin: 15vh auto;
+}
+footer > #end{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+}
+footer > #end > .explore{
+    margin: 0 6vw;
+}

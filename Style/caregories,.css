@@ -3,6 +3,7 @@
     height: 10vh;
     display: flex;
     justify-content: space-between;
+    border-bottom: 1px solid grey;
 }
 #navbar > ul{
     display: flex;
@@ -25,4 +26,29 @@
 #navbar > ul > li > a{
     color: black;
     text-decoration: none;
+}
+
+#navbar > h3{
+    text-align: center;
+
+}
+
+#books{
+    width: 80%;
+    height: 60vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 5vh  auto;;
+}
+#books > img{
+    margin: 5vh;
+}
+.card{
+    margin: 5vh auto
+}
+.class > input{
+border-radius: 20%;
+}
+#categories > header{
+    margin: 3vh 11vw;
 }
