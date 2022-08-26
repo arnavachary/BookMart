@@ -1,3 +1,16 @@
+#detail{
+    width: 80%;
+    height: 40vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0px;
+    margin: 10vh 10vw;
+}
+
+#detail >.info > h3{
+    font-weight: 500;
+}
+
 #navbar{
     width: 100%;
     height: 10vh;
@@ -28,34 +41,14 @@
     text-decoration: none;
 }
 
-#navbar > h3{
-    text-align: center;
-
-}
-
-#books{
-    width: 80%;
-    height: 60vh;
+#blog{
+    height: 70vh;
+    width: 90%;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    margin: 5vh  auto;;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 5vh auto;
 }
-#books > img{
-    margin: 5vh;
-}
-.card{
-    margin: 5vh auto
-}
-.class > input{
-border-radius: 20%;
-}
-#categories > header{
-    margin: 3vh 11vw;
-}
-
-#books > .card:hover{
-    transform :scale(1.05);
-    transition-duration: 1s;
-    border: 3px solid black ;
-    
+#blog > .card{
+    margin: 5vh 0;
 }
